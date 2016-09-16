@@ -1,5 +1,5 @@
 ---
-summary: "Create a responsive section that has an image on it’s left half."
+summary: "Create a responsive section that has an image on its left half."
 time: "2 hours"
 deliverables: "1 HTML file, 1 CSS file, images"
 ---
