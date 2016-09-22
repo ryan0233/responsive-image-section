@@ -16,3 +16,84 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #e2e2e2;
+  padding: 0;
+  margin: 0;
+}
+
+.img-flex {
+  display: inline-block;
+  max-width: 100%;
+}
+
+section {
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #555;
+  border-radius: 4px;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 25em) {
+  body {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+  body {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+  body {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+  body {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+}
