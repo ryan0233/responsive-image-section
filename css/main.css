@@ -21,6 +21,7 @@ body {
   background-color: #e2e2e2;
   padding: 0;
   margin: 0;
+  vertical-align: middle;
 }
 
 .img-flex {
@@ -43,6 +44,10 @@ a {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   text-align: center;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 h1 {
@@ -83,6 +88,9 @@ div {
     line-height: 1.4;
   }
 
+  section {
+    max-width: 100%;
+  }
 
 
 }
