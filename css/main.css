@@ -22,17 +22,24 @@ body {
   padding: 0;
   margin: 0;
   vertical-align: middle;
-  width: 100%;
+  max-width: 50em;
 }
 
 .img-flex {
   display: block;
   width: 100%;
+  vertical-align: top;
+}
+
+img {
+  vertical-align: top;
 }
 
 .text {
   padding: 1rem;
   display: inline-block;
+  max-width: 60em;
+  vertical-align: top;
 }
 
 a {
@@ -91,18 +98,20 @@ div {
     line-height: 1.4;
   }
 
-  section {
-    display: inline-block;
+  body {
+    margin: 2em auto;
   }
 
   .img-flex {
     display: inline-block;
-    width: 50%;
-    text-align: center;
+    max-width: 50%;
+    vertical-align: middle;
+    margin: auto;
   }
 
   .text {
-    float: left;
+    vertical-align: middle;
+    max-width: 50%;
   }
 }
 
