@@ -99,8 +99,8 @@ div {
   }
 
   body {
-    margin: 2em auto;
-
+    margin: 1em auto;
+    overflow: hidden;
   }
 
   .img-flex {
@@ -111,6 +111,7 @@ div {
     position: relative;
     top: -275px;
     right: 20px;
+    padding-left: 2rem;
   }
 
   .text {
